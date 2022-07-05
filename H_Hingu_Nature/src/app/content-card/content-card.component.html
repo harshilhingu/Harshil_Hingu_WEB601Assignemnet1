@@ -1,1 +1,12 @@
-<p>content-card works!</p>
+<div class="card">
+    <header>
+        
+        <div class="title">{{ natureItem ? natureItem.title : "" }}</div><br>
+        
+    </header>
+    <div class="author">{{ natureItem ? natureItem.author : "" }}</div><br>
+
+    <div (click)="printConsole()"><img [src]="natureItem ? natureItem.imageLink : ''"></div><br>
+
+    <div class="type">{{ natureItem ? natureItem.type : "" }}</div><br>
+</div>

@@ -1,0 +1,42 @@
+:host{
+    
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    .card{
+    border: 2px solid black;
+   
+   
+    text-align: center;
+
+    .type {
+        text-align: right;
+        font-weight: bold;
+      }
+    
+    }
+
+    header {
+        font-size: 30px;
+        margin-bottom: 8px;
+      }
+      
+
+    img{
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+    }
+    .title{
+        font-size: large;
+        color: rgb(18, 154, 245);
+        text-align: center;
+    
+    }
+    &.even{
+        background-color: #fb7575;
+        text-align: right;
+    }
+
+}
