@@ -7,3 +7,4 @@ export interface Content {
     type: string;
     hashtags?: string[];
   }
+  
