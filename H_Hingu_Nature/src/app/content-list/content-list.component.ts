@@ -8,9 +8,9 @@ import { Content } from '../models/content';
 })
 export class ContentListComponent implements OnInit {
   title = "Nature";
-  travelList: Content[];
+  natureList: Content[];
   constructor() {
-    this.travelList = [{
+    this.natureList = [{
       id: 1,
       title: 'Waterfall',
       author: "Harshil",
