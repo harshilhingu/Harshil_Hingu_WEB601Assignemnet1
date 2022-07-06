@@ -1,42 +1,61 @@
-:host{
-    
+:host {
+    border: 2px dashed crimson;
     display: block;
-    width: 400px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    .card{
-    border: 2px solid black;
-   
-   
+    padding: 16px;
+    margin: 0 auto 16px;
+    max-width: 500px;
+    border-radius: 25px;
+  
+  
+    &.is-odd {
+      background-color: #ffffff;
+    }
+  
+  }
+  
+  :host.is-even {
+    background-color: lightgrey;
+  }
+  
+  header {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  
+  .author {
     text-align: center;
-
-    .type {
-        text-align: right;
-        font-weight: bold;
-      }
-    
+  }
+  
+  .type {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .hashtags {
+    border: 1px solid #000;
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    border-radius: 10px;
+  
+    span {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: lemonchiffon;
+      padding: 8px;
+      display: inline-block;
+      margin: 0 8px;
+      font-weight: bold;
     }
-
-    header {
-        font-size: 30px;
-        margin-bottom: 8px;
-      }
-      
-
-    img{
-        display: block;
-        margin: 0 auto;
-        width: 200px;
-    }
-    .title{
-        font-size: large;
-        color: rgb(18, 154, 245);
-        text-align: center;
-    
-    }
-    &.even{
-        background-color: #fb7575;
-        text-align: right;
-    }
-
-}
+  }
