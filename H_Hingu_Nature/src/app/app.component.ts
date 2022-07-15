@@ -19,7 +19,7 @@ export class AppComponent {
       id: 0,
       title: 'Waterfall',
       author: "Harshil",
-      imageLink: "https://www.thediaryofanomad.com/wp-content/w3-webp/uploads/2021/02/waterfall-quotes-waterfall-captions-10-1.jpgw3.webphttps://www.thediaryofanomad.com/wp-content/w3-webp/uploads/2021/02/waterfall-quotes-waterfall-captions-10-1.jpgw3.webp",
+      imageLink: "https://www.thediaryofanomad.com/wp-content/w3-webp/uploads/2021/02/waterfall-quotes-waterfall-captions-10-1.jpgw3.webp",
       type: "Waterfall area",
     };
     this.myList.addContent(contentitem);
