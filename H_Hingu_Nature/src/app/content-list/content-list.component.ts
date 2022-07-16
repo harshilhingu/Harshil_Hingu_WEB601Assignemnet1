@@ -11,43 +11,52 @@ export class ContentListComponent implements OnInit {
   natureList: Content[];
   constructor() {
     this.natureList = [{
-      id: 1,
-      title: 'Waterfall',
-      author: "Harshil",
-      imageLink: "https://img.wallpapersafari.com/desktop/1920/1080/16/7/bcvNn0.jpg",
-      type: "Waterfall area"
-    },{
+         id: 1,
+      title: 'CBR 10000RR',
+      body: "Steel very good and perfect even it's my fav bike from all of them ",
+      imageLink: "https://cdni.autocarindia.com/ExtraImages/20200730063629_2020-Honda-CBR1000RR-R-Fireblade-SP.jpg",
+      type: "Race bike",
+      author: "harshil Hingu",
+      hashtags: ["BMW", "Trigger", "Hayabuza"]
+    },
+    {
       id: 2,
-      title: 'Sunset',
-      author: "Harshil",
-      imageLink: "https://img.wallpapersafari.com/desktop/1440/900/1/47/Otium8.jpg",
-      type: "Sunset"
+      title: 'BMW',
+      body: "Steel is in good condition",
+      imageLink: "https://img.etimg.com/thumb/msid-75572296,width-640,resizemode-4,imgsize-507941/bmw-ninet.jpg",
+      type: "Steel",
+      author: "Harsil Hingu",
+      hashtags: ["BMW", "Trigger", "Hayabuza"]
     },
     {
       id: 3,
-      title: 'Trees',
-      author: "Harshil",
-      imageLink: "https://img.wallpapersafari.com/desktop/1680/1050/43/11/vc1haJ.jpg",
-      type: "greenary"
+      title: 'Splender',
+      body: "Steel very good and confprtable to run and use",
+      imageLink: "https://bd.gaadicdn.com/processedimages/hero-motocorp/hero-motocorp-splendor/source/hero-motocorp-splendor62863b5bef195.jpg",
+      type: "Heavy model",
+      author: "Harsil Hingu",
+      hashtags: ["BMW", "Trigger", "Hayabuza"]
     },
     {
       id: 4,
-      title: 'Rivers',
-      author: "Harshil",
-      imageLink: "https://img.wallpapersafari.com/desktop/800/450/45/34/Zwv6FY.jpg",
-      type: "Rivers"
+      title: 'Hero Honda',
+      body: "Aluminum not that much effective but it's good for some years ",
+      imageLink: "https://static.autox.com/uploads/bikes/2017/05/1486030508-hero-hf-deluxe.jpg",
+      type: "Not much hard",
+      author: "Harsil Hingu",
+      hashtags: ["BMW", "Trigger", "Hayabuza"]
     },
     {
-      id: 5,
-      title:'Sea',
-      author: "Harshil",
-      imageLink: 'https://img.wallpapersafari.com/desktop/1680/1050/61/19/52w6S7.jpg',
-      type: "Sea"
+      id: 4,
+      title: 'Hero Honda',
+      body: "Aluminum not that much effective but it's good for some years ",
+      imageLink: "https://static.autox.com/uploads/bikes/2017/05/1486030508-hero-hf-deluxe.jpg",
+      type: "Not much hard",
+      author: "Harsil Hingu",
+      hashtags: ["BMW", "Trigger", "Hayabuza"]
     },
   ];
   }
-
   ngOnInit(): void {
-  }
-
 }
+  }
